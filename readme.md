@@ -34,7 +34,7 @@ You'll need to first prepare your tenant for custom policies. If you have not do
 2. Install the [Azure AD B2C extension for VS code](https://marketplace.visualstudio.com/items?itemName=AzureADB2CTools.aadb2c)
 3. Rename the `appsettings.sample.json` to `appsettings.json`. Edit the file to match your Azure AD B2C tenant properties from the [azure portal](portal.azure.com)
 4. Generate policy based on `appsettings.json`. To do this, click `ctrl+shift+p` to open VS code command pallet. Search for "B2C build all policies" and click it.
-5. Upload the generated files, located in `dist/Development` , to AD B2C tenant using the azure portal.
+5. Upload the generated files, located in `dist/Development`, to AD B2C tenant using the azure portal.
 
 This policy is built upon the SocialAndLocalAccount sample from [the azure policy starter pack](https://github.dev/Azure-Samples/active-directory-b2c-custom-policy-starterpack). If you are already using those files, you only need to upload the `NoPassword.xml` file.
 
